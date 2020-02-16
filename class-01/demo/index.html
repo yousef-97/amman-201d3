@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 1 code 201</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+        header{
+            text-align: center;
+            background: #cde0ed;
+            padding: 8px;
+            border: 1px solid #afafaf;
+        }
+        /* #myNav ul li a{
+            color: #000;
+        } */
+        nav ul li a{
+            color: red;
+            text-decoration: none;
+        }
+
+        nav ul li{
+            display: inline-block;
+            padding: 0 15px;
+        }
+        .blue-color{
+            color: black;
+        }
+        footer{
+            background: #cde0ed;
+            padding: 2px 23px;
+            border: 1px solid #bcb9b9;
+        }
+        main{
+            height: 289px;
+            background: #ffadad;
+            margin: 20px 0;
+            padding: 10px 23px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Demo 201 day1</h1>
+        <nav id="myNav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="" style="color:blue;" class="blue-color">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="myMain">
+        <h2>Welcome to 201 !</h2>
+        <p>Congratulations all for passing 102 I'm happy for you all.</p>
+        <p>we will spend 1 month together so just keep exciting.</p>
+    </main>
+    <footer>
+        <p>copy right for 201 students</p>
+    </footer>
+    <script>
+        var name = prompt("whats you name ?");
+        alert("Welcome to 201 class " + name);
+        // console.log("User name is = " +  name);
+        //document.write() it will append at the end of body
+        // document.write(name);
+        //this an extra stuff for you guys 
+        var myMain = document.getElementById("myMain");
+        myMain.append("Welcome to 201 " + name);
+        //now we appending to a specific ID
+    </script>
+</body>
+</html>

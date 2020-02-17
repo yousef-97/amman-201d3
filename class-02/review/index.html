@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://lh3.googleusercontent.com/proxy/AiVvXcoBTdRBXzOUQFK5aauyZLxhk6uKLdlZrD4nZ52eG5BE36sEKQEwKf93IIJ2Uir9rrLC4h9VDq83jvtqWdUbShQIel9iPH4qlP28hyymUBxVnwHn9w);
+            background-repeat: no-repeat;
+            background-size: 800px 800px;
+            width: 100%;
+        }
+        h1 {
+            color: rgb(62, 52, 41);
+            background-color: hsl(202, 71%, 59%);
+            opacity: .7;
+        }
+        a {
+            color: hsl(202, 71%, 59%);
+            text-decoration: none;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 20px 30px;
+        }
+        nav {
+            text-align: center;
+            background-color: rgb(6, 68, 109);
+            opacity: 0.7;
+        }
+        header {
+            background-color: rgb(6, 68, 109);
+            opacity: 0.7;
+            margin: 20px 30px;
+        }
+        .main-div{
+            height: 100px;
+        }
+        .blue-background{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+ <header>
+     <h2 style="text-align: center;
+     color:rgb(49, 158, 219);
+     margin-top: 20px; ">
+         ArriveNow Shipping Intl. Co.
+     </h2>
+    <nav>
+        <ul>
+            <Li><a href=""> Home </a></Li>
+            <Li><a href=""> About </a></Li>
+            <Li><a href=""> Products </a></Li>
+            <Li><a href=""> Contact Us </a></Li>
+        </ul>
+    </nav>
+ </header>
+ <main id="mainScreen" class="main-div blue-background">
+     <h1>
+         Class 1 Lab 
+     </h1>
+    <p style="background-color: rgb(92, 141, 169);
+    color: rgb(14, 25, 33);
+    opacity: 0.7;">
+        Please enter your First and Last Name
+    </p>
+    <p style="background-color: rgb(133, 180, 206);
+    color: rgb(19, 23, 32);
+    opacity: 0.7;">
+        Please specify the item/s you ordered
+    </p>
+    <p style="background-color: rgb(170, 207, 229);
+    color: rgb(25, 45, 77);
+    opacity: 0.7;">
+        How many items did you order?
+    </p>
+    <p style="background-color: rgb(192, 219, 232);
+    color: rgb(75, 79, 69);
+    opacity: 0.7;">
+        Please enter your Home Address 
+    </p>
+ </main>
+ <footer>
+    <p style="background-color: rgb(49, 158, 219);
+    color: rgb(62, 52, 41);
+    text-align: center;
+    margin-top: 350px;"> Copyrights for Darah © 2020</p>
+ </footer>
+ <script>
+     var fullName = prompt("Please enter your First and Last Name");
+     console.log("client full name is " + fullName);
+     alert("Welcome to my website  " + fullName);
+     var itemType = prompt("Hello " + fullName + "! Please specify the item/s you ordered");
+     console.log("item ordered is " + itemType);
+     var itemNumber= prompt("How many items did you order?");
+     console.log(fullName + " ordered " + itemNumber + " items.");
+     var homeAddress= prompt("Please enter your Home Address");
+     console.log("client address " + homeAddress);
+     alert("We are shipping " + itemNumber + " " + itemType + " to " + fullName + " to your home location @: " + homeAddress + ". Would you like to confirm?");
+    var mainScreen= document.getElementById("mainScreen");
+     mainScreen.append("1 Order Confirmed for " + fullName + "! You have ordered " + itemNumber + " " + itemType + " to " + homeAddress);
+ </script>
+</body>
+</html>

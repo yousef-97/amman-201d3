@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+ol{
+    list-style: circle;
+    margin: 20px;
+}
+ul{
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+    margin: 30px;
+}

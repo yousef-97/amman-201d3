@@ -1,0 +1,22 @@
+.pargraph-one{
+    width: 270px;
+    background-color: darkseagreen;
+    padding: 13px 21px;
+    margin: 10px 30px 20px 10px;
+    color: rgba(233, 500, 554 ,0.6);
+}
+p.pargraph-two{
+    width: 300px;
+    padding: 20px;
+    color: #ff4ed8;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin-bottom: 28px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/236x/88/9f/71/889f712806a0d96e261b687d64aaec55.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 32px 0px;
+}
+

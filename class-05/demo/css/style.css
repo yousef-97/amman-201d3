@@ -36,6 +36,8 @@ nav ul li a:hover{
     height: 300px;
     text-align: center;
     padding-top: 153px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h2 {
     font-weight: bold;

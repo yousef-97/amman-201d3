@@ -6,7 +6,7 @@
 
 // Functions autonomy
 // var greet = 'hello';//global
-// // Function Expression
+// Function Declaration
 // function getName(name , age){
 //   // var greet = 'Welcome ' + name +' to 201d3 Class';
 //   var greet = `Welcome ${name} to 201d3 Class your age ${age}`;
@@ -17,7 +17,7 @@
 // console.log(response);
 // console.log('global greeting ', greet);
 
-// // Function Declaration
+// // Function Expression
 // var showName = function(){
 //   //console.log('show me ' + userName); undefined
 //   var userName = prompt('what\'s your Name ?');
@@ -32,4 +32,5 @@
 (function getName(name , age){
   alert(`Welcome ${name} to 201d3 Class your age ${age}`);
 })('reham' , 25);
-getName('ahmed' , 25);
+// getName('ahmed' , 25); we can't use that
+// getName();

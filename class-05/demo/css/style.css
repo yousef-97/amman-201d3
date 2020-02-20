@@ -4,7 +4,6 @@ body{
     font-size: 19px;
     line-height: 28px;
     word-spacing: 1px;
-    height: 1000px;
 }
 header.my-header {
     background-color: #860386;
@@ -15,6 +14,7 @@ header.my-header {
 }
 nav ul li {
     display: inline-block;
+    font-size: 15px;
 }
 nav ul li a{
     color: #fff;
